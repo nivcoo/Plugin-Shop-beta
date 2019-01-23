@@ -548,7 +548,7 @@ class ShopController extends ShopAppController
                 
             }
             if (!empty($search_sections)) foreach ($search_sections as $v) {
-                $search_categories[$v['Section']['id']] = $this->Category->find('all', array('conditions' => array('section' => 1, 'section_id' => $v['Section']['id']),'order' => 'order'));
+                $search_categories["section-id-".$v['Section']['id']] = $this->Category->find('all', array('conditions' => array('section' => 1, 'section_id' => $v['Section']['id']),'order' => 'order'));
             }
             $search_categories_without_section = $this->Category->find('all', array('conditions' => array('section' => 0),'order' => 'order'));
             if (!empty($search_categories_without_section)) foreach ($search_categories_without_section as $v) {
