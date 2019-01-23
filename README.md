@@ -1,5 +1,13 @@
 # Plugin MineWeb | Shop-beta
 
+## Modification SQL
+Pour utiliser le plugin il faut sois supprimer et mettre ce plugin shop sauf que la bdd sera vide, OU sinon il suffit d'entrer ces lignes sur votre phpmyadmin ou votre terminal :
+
+-   Premiere commande, il faut cependant changer mineweb par votre base de donnée
+    -   ```CREATE TABLE `mineweb`.`shop__sections` ( `id` INT(20) NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , PRIMARY KEY     (`id`)) ENGINE = InnoDB;```
+    
+-   ```ALTER TABLE `shop__categories` ADD `section` INT(1) NOT NULL AFTER `section_id`, ADD `section_id` INT(8) NOT NULL AFTER `section`;```
+
 ## Description
 Le plugin Shop ajoute une boutique en ligne sur votre site, permettant à vos joueurs d'acheter des choses contre de l'argent réel (VotreSite/shop).
 Cette version permet de rajouter les sous catégories
