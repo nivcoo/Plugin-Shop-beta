@@ -63,7 +63,7 @@
                         <?= $value['Section']['name'] ?> <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-                        <?php if(!empty($search_categories)) foreach ($search_categories[$value['Section']['id']] as $v) {?>
+                        <?php if(!empty($search_categories)) foreach ($search_categories["section-id-".$value['Section']['id']] as $v) {?>
                             <li class=""><a href="#category_<?= $v['Category']['id'] ?>" data-toggle="tab" aria-expanded="false"><?= $v['Category']['name'] ?></a></li>
                         <?php } ?>
                     </ul>
