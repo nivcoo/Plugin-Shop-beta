@@ -7,6 +7,7 @@ Pour utiliser le plugin il faut sois supprimer et mettre ce plugin shop sauf que
     -   ```CREATE TABLE `mineweb`.`shop__sections` ( `id` INT(20) NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , PRIMARY KEY     (`id`)) ENGINE = InnoDB;```
     
 -   ```ALTER TABLE `shop__categories` ADD `section` INT(1) NOT NULL AFTER `section_id`, ADD `section_id` INT(8) NOT NULL AFTER `section`;```
+Et ensuite il suffit de vider app/tmp et de changer les fichiers app/Plugin, faites une sauvegarde de la bdd avant !
 
 ## Description
 Le plugin Shop ajoute une boutique en ligne sur votre site, permettant à vos joueurs d'acheter des choses contre de l'argent réel (VotreSite/shop).
