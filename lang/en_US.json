@@ -8,6 +8,10 @@
     "SHOP__MENU_PAYMENTS": "Manage payments",
     "SHOP__MENU_GIFT": "Gifts",
 
+    "SHOP__DUPLICATE": "Duplicate",
+    "SHOP__CONFIRM_DUPLICATE": "Do you really want to duplicate this article?",
+    "SHOP__ITEM_DUPLICATE_SUCCESS": "Article successfully duplicated!",
+
     "SHOP__CONFIG": "Configuration",
     "SHOP__SAVE_SUCCESS": "Saved!",
     "SHOP__SAVE_IN_PROGRESS": "Automatic backup ...",

@@ -1,12 +1,16 @@
 {
   "SHOP__TITLE": "Boutique",
   "SHOP__GLOBAL_AMOUNT": "Montant",
-  
+
   "SHOP__MENU_CATEGORIES": "Gérer les catégories",
   "SHOP__MENU_ITEMS": "Gérer les articles",
   "SHOP__MENU_VOUCHERS": "Gérer les promotions",
   "SHOP__MENU_PAYMENTS": "Gérer les paiements",
   "SHOP__MENU_GIFT": "Cadeaux",
+
+  "SHOP__DUPLICATE": "Dupliquer",
+  "SHOP__CONFIRM_DUPLICATE": "Voulez-vous vraiment dupliquer cet article ?",
+  "SHOP__ITEM_DUPLICATE_SUCCESS": "Article dupliqué avec succès !",
 
   "SHOP__CONFIG": "Configuration",
   "SHOP__SAVE_SUCCESS": "Sauvegardé !",
@@ -177,7 +181,7 @@
   "SHOP__CATEGORIES_TIP": "Si la fonction est disponible sur le thème, les catégories placées en non répertoriés ne seront pas visibles sur la page de la boutique. Il faut donc les attribuer à une section. Et les catégories qui ne seront pas liées à une section ne seront pas sous forme de menus déroulants.",
   "SHOP__CATEGORY_ADD_NO": "Ne pas lier la catégorie à une section (elle sera sous forme de boutton et non de menu déroulant)",
   "SHOP__CATEGORIES_NO": "Catégories non liée à une section",
-  
+
   "SHOP__SECTION_ADD": "Ajouter une section",
   "SHOP__SECTION": "Section",
   "SHOP__SECTIONS": "Sections",
@@ -244,7 +248,7 @@
   "PERMISSIONS__VOTE__ADMIN_VIEW_TOP":"Accéder à la page du top vote",
   "PERMISSIONS__SHOP__ADMIN_GIFTALL":"Gérer les cadeaux (don de points)",
   "PERMISSIONS__SHOP__ADMIN_MANAGE_CATEGORIES":"Gérer les catégories de la boutique (Ajouter, éditer, supprimer)",
-  
+
 
   "NOTIFICATION__NEW_VOUCHER":"Un nouveau code promotionnel est disponible !",
   "NOTIFICATION__NEW_PSC":"Une nouvelle PaySafeCard doit être validée !",
